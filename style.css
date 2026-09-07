@@ -87,17 +87,12 @@ body {
     100% { transform: rotate(360deg); }
 }
 
-.profile-placeholder {
+.profile-logo {
     width: 100%;
     height: 100%;
     border-radius: 50%;
-    background-color: var(--secondary-bg);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 3rem;
-    color: var(--text-secondary);
-    animation: spin 8s linear infinite reverse; /* counter-spin to keep icon straight */
+    object-fit: cover;
+    animation: spin 8s linear infinite reverse; /* counter-spin to keep logo straight while border spins */
 }
 
 .name {
